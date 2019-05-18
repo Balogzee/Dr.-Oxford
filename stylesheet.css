@@ -49,5 +49,18 @@
 }
 
 .container{
-	background: url(../bgimg.png);
+	background-color: rgb(187, 187, 184);
+	
+	
+}
+.content{
+	background: yellow;
+	height: 400px;
+	width: 100%;
+}
+
+.box{
+	background: yellow;
+	height: 500px;
+	width: 400px;
 }
