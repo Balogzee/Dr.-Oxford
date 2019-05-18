@@ -1,0 +1,53 @@
+.navbar{
+	height: 40px;
+	background-color: #7ba0d8;
+	width: 100%;
+	display: fixed;
+	z-index: 1;
+
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.navbar .navbar-head{
+	font-family: Forte;
+	color: white;
+	font-size: 20px;
+	margin-left: 15%;
+	text-shadow: 1px 1px 1px black;
+}
+.navbar ul{
+	margin-left: 60%;
+	margin-top: -25px;
+	font-family: monospace;
+}
+.navbar ul li{
+	text-align: center;
+	float: left;
+	list-style: none;
+	
+
+
+}
+.navbar li a{
+	text-decoration: none;
+	margin: 10px;
+	color: white;
+	font-size: 15px;
+	
+
+}
+
+.navbar li a:hover{
+	background: white;
+	color: red;
+	padding: 10px;
+
+}
+
+.container{
+	background: url(../bgimg.png);
+}
